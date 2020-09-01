@@ -36,8 +36,6 @@
 
 * Atbash
 
-* X&Y decoder (if a string contains only 2 chars, X and Y, try converting to binary)
-
 * Standard Galactic Alphabet (aka Minecraft Enchanting Language)
 
 # Hashes
