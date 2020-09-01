@@ -2,7 +2,7 @@
 # Basic Encryptions
 
 * Caesar Cipher
-* Vigenere Cipher
+* Vigenère Cipher
 * Pig Latin
 
 * Reverse Cipher
