@@ -19,8 +19,8 @@ We have a small Discord chat for you to talk to the developers and get some help
 [Discord Server](https://discord.gg/KfyRUWw)
 # How to contribute
 Ciphey is always in need of more decryption tools! To learn how to integrate code into ciphey, check out:
-* https://docs.ciphey.online/en/latest/makingCiphers.html for a simple tutorial
-* https://docs.ciphey.online/en/latest/extending.html for a API reference
+* https://github.com/Ciphey/Ciphey/wiki/Adding-your-own-ciphers for a tutorial
+* https://github.com/Ciphey/Ciphey/wiki/Extending-Ciphey for a API reference
 
 It'd be nice if you wrote some tests for it, by simply copying a function in the Ciphey/tests/test_main.py and replacing the ciphertext with something encoded with your cipher. If you don't add tests, we will probably still merge it, but it will be much harder for us to diagnose bugs!
 
