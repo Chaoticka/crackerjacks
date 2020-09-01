@@ -11,6 +11,8 @@ This will tell your default Python3 version to install Ciphey and upgrade it if 
 
 # Docker
 
+[See here for how to install Docker](https://docs.docker.com/engine/install/)
+
 ```
 docker run -it --rm remnux/ciphey
 ```
