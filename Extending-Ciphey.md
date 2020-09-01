@@ -23,7 +23,8 @@ interface it uses, and then registers it:
 
   @registry.register
   class DesBruteForce(Cracker[bytes]):
-      pass```
+      pass
+```
 
 This covers pretty much every use case, but there may exist a case where the class
 can accept multiple different types, such as for some ``ResourceLoaders``. In this
@@ -38,7 +39,8 @@ case, you should use ``@ciphey.iface.registry.register_multi``:
 
   @registry.register_multi(str, bytes)
   class EveryNthSymbol(Cracker):
-      pass```
+      pass
+```
 
 Note how the type parameters are not given to the interface name; these are filled in
 by the decorator
