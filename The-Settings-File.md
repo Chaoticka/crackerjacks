@@ -12,33 +12,16 @@ The settings file follows a specific format. **Copy and paste this below!**
 
 ```yaml
 ---
-language_checker_options:
-        # The language checking options. Basically, this detects plaintext.
-        default_language: "english" # What language do you want to use?
-        default_checker: "brandon"
-        english:
-                dict_name: english # the name of the dict in cipheyDists
-                stopwords_name: english # The name of the stopwords set in cipheyDists
-                brandon: # The brandon checker, the default checker
-                        thresholds:
-                                # Sentence length: {Checker: percentage threshold}
-                                # Want to know how these numbers were selected? Read the docs here TODO
-                                "Phase 1": {0: {"check": 0.02}, 110: {"stop": 0.15}, 150: {"stop": 0.28}}
-                                "Phase 2": {0: 0.55} # phase 2 threshold
-        german:
-                brandon:
-                        dict_name: german
-                        stopwords_name: german
-                        thresholds:
-                                0.55
-
-regexFile:
-        # Put your custom REGEX here
-        # These 4 REGEX's cover the most popular CTF flag formats.
-        # {.*} means "any text of any size here" and /i means "ignore case".
-        # For example, for the CTf NoobCTF the format would be /NoobCTF{.*}/i
-        - /HTB{.*}/i # TODO HTB strings are just md5s
-        - /THM{.*}/i
-        - /FLAG{*.}/i
-        - /CTF{*.}/i
+params:
+  regex:
+    regex:
+    - FLAG{*.}
+    - CTF{*.}
+    - HTB{.*}
+    - THM{.*}
+  brandon:
+    top1000: cipheydists::list::english1000
+    wordlist: cipheydists::list::english
+    stopwords: cipheydists::list::englishStopWords
+    threshold: 0.45
 ```
