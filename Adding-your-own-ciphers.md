@@ -180,7 +180,7 @@ The final function is `getTarget()`.
 ```
 
 
-**⚠️Warning**: This is a step often overlooked. In the Decoding folder there is a file called `__init.py`. Edit this file and add your decoder to it. 
+**⚠️Warning**: This is a step often overlooked. In the Decoding folder there is a file called `__init__.py`. Edit this file and add your decoder to it. 
 
 
 **Note**: Now run Ciphey to see if it works. We use Poetry to run Ciphey. Poetry creates a virtualenv when you run Ciphey, so you know it'll work for us exactly how it works for you. In the root directory of Ciphey (next to the README.md file) run "poetry run ciphey -t "Your test text here"". If your decoer doesn't work, run "-vvv" to see what's happening & contact us via Discord or a GitHub issue.
