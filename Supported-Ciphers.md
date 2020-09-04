@@ -55,3 +55,8 @@ NOTE: Hashes are turned off right now due to some bugs with external services we
 # What Ciphers are going to be implemented next?
 
 [See this GitHub issue.](https://github.com/Ciphey/Ciphey/issues/63)
+
+# Current ciphers in the works
+* Decimal
+* Base69
+* Prisoner's Tap Code
