@@ -47,6 +47,6 @@ To use the `regex checker`. The `{` indicates you want the regex to succeed when
 ciphey -t = "text" -C regex -p regex.regex=ciphey
 ```
 
-# Why can't Ciphey brutefroce this ciphertext which is encrypted with AES-128 bit key?
+# Why can't Ciphey brochette this ciphertext which is encrypted with AES-128 bit key?
 This would take more energy than there is in the solar system.
 Also, yes, this was a genuine question someone asked.
