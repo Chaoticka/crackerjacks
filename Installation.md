@@ -81,3 +81,5 @@ This command does many things:
 * We are telling the version of pip inside of Python3 to install something. The reason why we use Python3 to call Pip instead of calling Pip is that the version of Pip may differ from Python, or you may have multiple versions of Python installed or you may be in a virtual environment.
 * The -U flag says "upgrade". Sometimes Python gets stuck on an older version of Ciphey, so if it does -- it says to upgrade it.
 * "ciphey" is the name of the package we want to install.
+
+**Make sure you run this command in Terminal/CMD/Powershell or whatever you use. Do not run this in Python's IDLE.**
