@@ -11,7 +11,7 @@ for word in ciphertext:
         threshold += 1
 ```
 
-When building Brandon checker, we experimented with around ~10 different English checkers and found this solution was the fastest and most accurate. There was another that was more accurate, but it took far too long to run. You can see our tests in [#90#](https://github.com/Ciphey/Ciphey/issues/90).
+When building Brandon checker, we experimented with around ~10 different English checkers and found this solution was the fastest and most accurate. There was another that was more accurate, but it took far too long to run. You can see our tests [here](https://github.com/Ciphey/CipheyDocs/blob/master/docs/lc2.rst) and the corresponding GitHub issue is #90.
 
 It returns True when threshold is met, otherwise it returns False.
 
