@@ -60,6 +60,7 @@ NOTE: Hashes are turned off right now due to some bugs with external services we
 [See this GitHub issue.](https://github.com/Ciphey/Ciphey/issues/63)
 
 # Current ciphers in the works
+This is based on pull requests / support given in the Discord chat.
 * Decimal
 * Base69
 * Prisoner's Tap Code
