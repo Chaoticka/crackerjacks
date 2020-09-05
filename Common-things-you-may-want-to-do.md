@@ -5,6 +5,7 @@ This page will show you specific applications of Ciphey.
 
 # Common flags you may want to use
 ## How do I enable nested encryption?
+[We held a vote and found that nested encryptions by default wasn't something people wanted.](https://github.com/Ciphey/Ciphey/issues/327)
 ```
 -p ausearch.enable_nested=True
 ```
