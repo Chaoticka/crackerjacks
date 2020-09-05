@@ -52,3 +52,13 @@ ciphey -t = "text" -C regex -p regex.regex=ciphey
 This would take more energy than there is in the solar system.
 
 Also, yes, this was a genuine question someone asked.
+
+# Common flags you may want to use
+## How do I enable nested encryption?
+```
+-p ausearch.enable_nested=True
+```
+## How do I use Regex?
+```
+-C regex -p regex.regex={
+```
