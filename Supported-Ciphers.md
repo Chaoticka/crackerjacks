@@ -1,4 +1,4 @@
-Ciphey currently supports **30 encryptions, encodings, and hashes.**
+Ciphey currently supports **29 encryptions, encodings, and hashes.** **14** of these are community contributions.
 # Basic Encryptions
 
 * Caesar Cipher
@@ -15,7 +15,7 @@ Ciphey currently supports **30 encryptions, encodings, and hashes.**
 * Repeating-key XOR
 
 # Encodings
-* Base8
+* Base8 (Octal)
 *  Base16
 *  Base32
 *  Base58 Bitcoin
@@ -35,7 +35,6 @@ Ciphey currently supports **30 encryptions, encodings, and hashes.**
 
 * Morse code with new lines
 
-* Octal Decoding (Base8)
 
 * Atbash
 
