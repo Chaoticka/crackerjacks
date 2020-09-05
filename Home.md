@@ -14,6 +14,7 @@ Please see the sidebar on the right hand side for all of our pages.
 * [Our very long hard-to-read full features page](https://github.com/Ciphey/Ciphey/wiki/Features)
 
 # Pages to help you troubleshoot Ciphey
+* [Installing Ciphey](https://github.com/Ciphey/Ciphey/wiki/Installation)
 * [Common Issues and their solutions](https://github.com/Ciphey/Ciphey/wiki/Common-Issues-&-Their-Solutions)
 * [List of known bugs](https://github.com/Ciphey/Ciphey/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 
