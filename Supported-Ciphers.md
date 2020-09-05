@@ -3,13 +3,14 @@ Ciphey currently supports **29 encryptions, encodings, and hashes.** **14** of t
 
 * Caesar Cipher
 * Vigenère Cipher
+* Binary Substitution Cipher (XY-Cipher)
+* Transposition Cipher
 * Pig Latin
 
 * Reverse Cipher
 
-* Transposition Cipher
 
-* Binary Substitution Cipher (XY-Cipher)
+
 
 # Modern Day Cryptography
 * Repeating-key XOR (release candidate stage)
