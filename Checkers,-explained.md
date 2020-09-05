@@ -60,3 +60,5 @@ Case insensitive.
 The user can specify different Regex in the program arguments or using the config file.
 # Entropy (coming soon)
 We plan to add an entropy checker to see if the data is ordered or not. We have the code already, but we need to implement a feature that asks the user if the output is correct else we may end up with many false positives.
+# G-test of Goodness-of-fit
+We use [this](https://en.wikipedia.org/wiki/G-test) instead of Chi Squared (as we found it to work better in our testing).
