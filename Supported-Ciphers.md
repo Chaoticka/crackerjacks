@@ -60,5 +60,6 @@ NOTE: Hashes are turned off right now due to some bugs with external services we
 
 # Current ciphers in the works
 This is based on pull requests / support given in the Discord chat.
+* A1Z26
 * Base69
 * Prisoner's Tap Code
