@@ -1,3 +1,5 @@
+We use multiple different checkers to check for when something becomes plaintext.
+
 # Language Checking
 Our language checker is called `brandon`, since we couldn't think of a better name.
 
@@ -43,8 +45,18 @@ Stop words or top 1k words uses a small threshold than dictionary checker.
 
 You can see our thresholds [here](https://github.com/Ciphey/CipheyDists/blob/master/cipheydists/brandon/english.json).
 
+**We are welcome to feedback about this approach, as we are not experts in this area.**
+
 # JSON
-
+The JSON checker works by running `json.loads(ctext)` on the ciphertext. If it succeeds, it is JSON and returns True.
 # Regex
+The Regex checker runs a Regex against the ctext. By default we check for CTF flags. These include:
+1. HTB{*.}
+2. THM{*.}
+3. FLAG{*.}
+4. CTF{*.}
+Case insensitive.
 
+The user can specify different Regex in the program arguments or using the config file.
 # Entropy (coming soon)
+We plan to add an entropy checker to see if the data is ordered or not. We have the code already, but we need to implement a feature that asks the user if the output is correct else we may end up with many false positives.
