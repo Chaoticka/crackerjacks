@@ -12,7 +12,7 @@ Ciphey currently supports **29 encryptions, encodings, and hashes.**
 * Binary Substitution Cipher (XY-Cipher)
 
 # Modern Day Cryptography
-* Repeating-key XOR (currently a release candidate)
+* Repeating-key XOR
 
 # Encodings
 
