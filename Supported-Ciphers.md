@@ -16,25 +16,24 @@ Ciphey currently supports **29 encryptions, encodings, and hashes.** **14** of t
 * Repeating-key XOR (release candidate stage)
 
 # Encodings
-* Base8 (Octal)
-*  Base16
+*  Base8 (Octal)
+*  Base10 (Decimal)
+*  Base16 (Hexadecimal)
 *  Base32
 *  Base58 Bitcoin
 *  Base58 Ripple
 *  Base62
 *  Base64
-*  Base69
-*  base85
-*  Ascii base85
-* Ascii
-
-* Hexadecimal
+*  Base85
+*  Base91
+*  ASCII Base85
+*  ASCII
 
 * Binary
 
 * Morse Code
 
-* Morse code with new lines
+* Morse Code with new lines
 
 
 * Atbash
@@ -61,6 +60,5 @@ NOTE: Hashes are turned off right now due to some bugs with external services we
 
 # Current ciphers in the works
 This is based on pull requests / support given in the Discord chat.
-* Decimal
 * Base69
 * Prisoner's Tap Code
