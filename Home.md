@@ -20,6 +20,7 @@ Please see the sidebar on the right hand side for all of our pages.
 # Pages to help you contribute to Ciphey
 * [Adding your own ciphers to Ciphey](https://github.com/Ciphey/Ciphey/wiki/Adding-your-own-ciphers)
 * [What are all the repos in Ciphey? You only really need to know Ciphey, CipheyDists, and CipheyCore](https://github.com/Ciphey/Ciphey/wiki/Ciphey's-Repos,-explained)
+* [Things to check before submitting a PR](https://github.com/Ciphey/Ciphey/wiki/Things-to-check-before-submitting-a-PR)
 * [Extending Ciphey](https://github.com/Ciphey/Ciphey/wiki/Extending-Ciphey)
 * [How do our checkers work? You may run into problems with them. DM us on Discord or make a GitHub issue if you do](https://github.com/Ciphey/Ciphey/wiki/Checkers,-explained)
 * [Our Discord. Contact us here for support in adding things to Ciphey.](https://discord.ciphey.online)
