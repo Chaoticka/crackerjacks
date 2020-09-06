@@ -33,3 +33,4 @@ Maybe you're interested in how this works :detective:
 * [Extending Ciphey, or a large overview of how it all works](https://github.com/Ciphey/Ciphey/wiki/Extending-Ciphey)
 * [A long list of features](https://github.com/Ciphey/Ciphey/wiki/Features)
 * [Our supported ciphers](https://github.com/Ciphey/Ciphey/wiki/Supported-Ciphers)
+* [Artificial Intelligence Search Algorithms, explained](https://github.com/Ciphey/Ciphey/wiki/Searchers,-explained)
