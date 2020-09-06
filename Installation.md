@@ -23,7 +23,7 @@ They have provided a guide on how to use it here.
 
 # Detailed Explanation for Python Installation
 To install Ciphey, you need 2 core things:
-1. Python3.6 or above
+1. Python3.7 or above
 2. Pip (on Python 3)
 
 Check to see if Python is already installed. Run both of these commands:
@@ -38,12 +38,12 @@ And/or
 python3 -c "import sys; print(sys.version)"
 ```
 
-If Python is installed, one of these commands will run and will output the version number. Ciphey onlysupports numbers higher than 3.6. If you see "2" or anything below "3.6", we'll need to install a more up to date version.
+If Python is installed, one of these commands will run and will output the version number. Ciphey onlysupports numbers higher than 3.7. If you see "2" or anything below "3.7", we'll need to install a more up to date version.
 
-Make sure to note what command words. On your compputer, if `python -c "import sys; print(sys.version)"` returns something higher or equal to "3.6", then whenever you see `python3` instead write `python`.
+Make sure to note what command words. On your compputer, if `python -c "import sys; print(sys.version)"` returns something higher or equal to "3.7", then whenever you see `python3` instead write `python`.
 
 
-Go to this website [https://www.python.org/](https://www.python.org/) and install Python3. Make sure the version is more than 3.6. By default. unless you expliticly choose a lower version, the version you install will > 3.6.
+Go to this website [https://www.python.org/](https://www.python.org/) and install Python3. Make sure the version is more than 3.7. By default. unless you expliticly choose a lower version, the version you install will > 3.7.
 
 Next, we need to install **pip**. 
 
@@ -76,7 +76,7 @@ python3 -m pip install -U ciphey
 Replace `python3` with `python` if you need to. If you're not sure, read the previous section `Detailed Explanation`. 
 
 This command does many things:
-* Uses Python3 (Ciphey only supports Python3.6 and above)
+* Uses Python3 (Ciphey only supports Python3.7 and above)
 * The -m flag tells Python to run the module
 * We are telling the version of pip inside of Python3 to install something. The reason why we use Python3 to call Pip instead of calling Pip is that the version of Pip may differ from Python, or you may have multiple versions of Python installed or you may be in a virtual environment.
 * The -U flag says "upgrade". Sometimes Python gets stuck on an older version of Ciphey, so if it does -- it says to upgrade it.
