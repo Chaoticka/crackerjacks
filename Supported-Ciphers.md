@@ -1,4 +1,4 @@
-Ciphey currently supports **31 encryptions, encodings, and hashes.** **14** of these are community contributions.
+Ciphey currently supports **32 encryptions, encodings, and hashes.** **14** of these are community contributions.
 # Basic Encryptions
 
 * Caesar Cipher
@@ -41,6 +41,7 @@ Ciphey currently supports **31 encryptions, encodings, and hashes.** **14** of t
 * Atbash
 
 * Standard Galactic Alphabet (aka Minecraft Enchanting Language)
+* Leetspeak
 
 # Hashes
 
