@@ -1,4 +1,4 @@
-Ciphey currently supports **29 encryptions, encodings, and hashes.** **14** of these are community contributions.
+Ciphey currently supports **31 encryptions, encodings, and hashes.** **14** of these are community contributions.
 # Basic Encryptions
 
 * Caesar Cipher
@@ -25,7 +25,7 @@ Ciphey currently supports **29 encryptions, encodings, and hashes.** **14** of t
 *  Base58 Ripple
 *  Base62
 *  Base64
-* Base69
+*  Base69
 *  Base85
 *  Base91
 *  ASCII Base85
@@ -63,5 +63,4 @@ NOTE: Hashes are turned off right now due to some bugs with external services we
 # Current ciphers in the works
 This is based on pull requests / support given in the Discord chat.
 * A1Z26
-* Base69
 * Prisoner's Tap Code
