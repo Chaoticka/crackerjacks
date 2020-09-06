@@ -14,6 +14,7 @@ Ciphey currently supports **29 encryptions, encodings, and hashes.** **14** of t
 
 # Modern Day Cryptography
 * Repeating-key XOR (release candidate stage)
+* Single XOR (release candidate stage)
 
 # Encodings
 *  Base8 (Octal)
