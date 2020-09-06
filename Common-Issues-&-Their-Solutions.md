@@ -60,10 +60,12 @@ To wrap up, we have a lot of encodings because:
 1. A significant amount of our pull requests are encodings (and people don't feel bad about adding them since it doesn't negatively effect Ciphey)
 2. What is plaintext to you and I won't be plaintext to a computer unless we write the code to decode it into plaintext.
 
+```
 **Why can't Ciphey bruteforce this ciphertext which is encrypted with a AES-128 bit key?**
 
 This would take more energy than there is in the solar system.
 
 Also, yes, this was a genuine question someone asked.
+```
 
 
