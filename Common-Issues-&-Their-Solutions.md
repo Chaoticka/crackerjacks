@@ -57,8 +57,9 @@ Also, Ciphey's checkers are very specific in what they take. For example, the st
 Our leetspeak decoder would convert those `_`s into spaces. The same for NATO, URL encoding and more. 
 
 To wrap up, we have a lot of encodings because:
-1. A significant amount of our pull requests are encodings (and people don't feel bad about adding them since it doesn't negatively effect Ciphey)
+1. A significant amount of our pull requests are encodings (and people don't feel bad about adding them since it doesn't negatively effect Ciphey).
 2. What is plaintext to you and I won't be plaintext to a computer unless we write the code to decode it into plaintext.
+3. Decodings are significantly easier to work on than crackers (most of our crackers are written in C++, whereas Decoders are pure Python).
 
 ```
 **Why can't Ciphey bruteforce this ciphertext which is encrypted with a AES-128 bit key?**
