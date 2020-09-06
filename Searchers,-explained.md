@@ -28,7 +28,7 @@ Nodes are ciphertext and paths are decryption methods (reverse of what we are cu
 The formula for our A* search is:
 
 ```
-expected time / + k * heuristic, for some experimentally determined value of k
+expected time / probability + k * heuristic, for some experimentally determined value of k
 Where k = Shannen Entropy
 Where heuristic = success_runtime + (1-success_likelihood)/success_likelihood  * failure_runtime
 ```
