@@ -76,7 +76,7 @@ Let’s rename it to firstLetter:
 ```
 
 
-**⚠️Warning**: Notice how `Decoder[T, U]` changes into `Decoder[str, str]`. This is because it is taking a string, and outputting a string. 
+**⚠️Warning**: Notice how `Decoder[T, U]` changes into `Decoder[str, str]`. This is because it is taking a string, and outputting a string. It's common for Ciphey to also have `Decode[bytes, bytes]` for things that are not strictly UTF-8.
 
 Now, to write the decode function. This is the part that you created and
 work on! I would suggest building it locally, in a separate file and
