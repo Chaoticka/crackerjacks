@@ -35,3 +35,13 @@ The 2 big players in this algorithm are runtime and probability of success (as w
 
 The Shannen Entropy reduces the more decryptions we do (at least on average in our testing). We can use entropy to work out which path is leading us to the right decryption method even if we do not know what the text is encrypted with.
 
+Shannen entropy let's us see if we are going in the right direction.
+
+![](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0e1c211c-f3ef-4c0f-aa71-fcc5749583c3_1437x1195.png)
+This is encrypted with Base64 -> Rot13 -> Vigenère (key: “key”).
+
+The Shannen Entropy is 5.23.
+
+Now if we “decode Base64” and get the entropy again:
+![](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9ceeddb-dece-4113-96c9-5a8c5776ce34_1441x1189.png)
+It’s now 3.88. Even though we have no idea how many more decryptions there are, or if our Base64 decoding successfully resulted in the correct decoding) we know we are going in the right direction because the Entropy is decreasing. 
