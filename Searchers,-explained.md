@@ -23,6 +23,8 @@ This is a hand-created heuristic that our next search algorithm will be able to 
 # Imperfection (A* search)
 Imperfection is our next goal in terms of searching. It is an A* algorithm where the heuristic matches the close priority in AU search.
 
+Nodes are ciphertext and paths are decryption methods (reverse of what we are currently doing).
+
 The formula for our A* search is:
 
 ```
