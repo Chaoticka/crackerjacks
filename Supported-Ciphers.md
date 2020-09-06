@@ -17,6 +17,7 @@ Ciphey currently supports **34 encryptions, encodings, and hashes.** **14** of t
 * Single XOR (release candidate stage)
 
 # Encodings
+[Why do you have a lot of decoders?](https://github.com/Ciphey/Ciphey/wiki/Common-Issues-&-Their-Solutions#why-do-you-have-a-lot-of-encodings-you-should-work-on-real-world-ciphers-more)
 *  Base8 (Octal)
 *  Base10 (Decimal)
 *  Base16 (Hexadecimal)
