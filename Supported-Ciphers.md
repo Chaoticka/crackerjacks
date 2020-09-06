@@ -1,4 +1,4 @@
-Ciphey currently supports **32 encryptions, encodings, and hashes.** **14** of these are community contributions.
+Ciphey currently supports **34 encryptions, encodings, and hashes.** **14** of these are community contributions.
 # Basic Encryptions
 
 * Caesar Cipher
@@ -23,14 +23,15 @@ Ciphey currently supports **32 encryptions, encodings, and hashes.** **14** of t
 *  Base32
 *  Base58 Bitcoin
 *  Base58 Ripple
+* Base58 Flickr (release candidate stage)
 *  Base62
 *  Base64
 *  Base69
 *  Base85
-*  Base91
+* Z85 (release candidate stage)
 *  ASCII Base85
+*  Base91
 *  ASCII
-
 * Binary
 
 * Morse Code
