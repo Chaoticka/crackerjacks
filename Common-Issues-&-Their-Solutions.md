@@ -47,9 +47,23 @@ To use the `regex checker`. The `{` indicates you want the regex to succeed when
 ciphey -t = "text" -C regex -p regex.regex=ciphey
 ```
 
+# Why do you have a lot of encodings? You should work on real world ciphers more!
+It is very easy to contribute to Ciphey. So easy in fact that we regularly get pull requests with weird and esoteric encodings.
+
+Thankfully, we are implementing a tag system. So when the user runs Ciphey by default it will run with the popular encodings, not the weird esoteric ones. This means our lovely contributors can add as many weird & esoteric decodings as they want, without effecting the performance of Ciphey **and** providing more value for people who want to try everything.
+
+Also, Ciphey's checkers are very specific in what they take. For example, the string "hello_my_name_is_emily" is English to you and me, but to the checker it is one giant word that isn't English.
+
+Our leetspeak decoder would convert those `_`s into spaces. The same for NATO, URL encoding and more. 
+
+To wrap up, we have a lot of encodings because:
+1. A significant amount of our pull requests are encodings (and people don't feel bad about adding them since it doesn't negatively effect Ciphey)
+2. What is plaintext to you and I won't be plaintext to a computer unless we write the code to decode it into plaintext.
+
 **Why can't Ciphey bruteforce this ciphertext which is encrypted with a AES-128 bit key?**
 
 This would take more energy than there is in the solar system.
 
 Also, yes, this was a genuine question someone asked.
+
 
