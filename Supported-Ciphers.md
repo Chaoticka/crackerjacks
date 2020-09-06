@@ -25,6 +25,7 @@ Ciphey currently supports **29 encryptions, encodings, and hashes.** **14** of t
 *  Base58 Ripple
 *  Base62
 *  Base64
+* Base69
 *  Base85
 *  Base91
 *  ASCII Base85
