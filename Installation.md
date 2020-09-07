@@ -7,7 +7,9 @@ python3 -m pip install ciphey --upgrade
 
 This will tell your default Python3 version to install Ciphey and upgrade it if it already exists.
 
-**Ciphey only supports Python3.7 and above. Please upgrade Python or use the Docker image if you have a version below 3.7**
+**Ciphey only supports Python3.7 and above. Please upgrade Python or use the Docker image if you have a version below 3.7.**
+
+**⚠️Windows Python defaults to install 32-bit. Ciphey only supports 64-bit. Make sure you're using 64-bit Python.**
 
 # Docker
 
