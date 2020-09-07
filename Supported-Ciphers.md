@@ -13,8 +13,8 @@ Ciphey currently supports **34 encryptions, encodings, and hashes.** **14** of t
 
 
 # Modern Day Cryptography
-* Repeating-key XOR (release candidate stage)
-* Single XOR (release candidate stage)
+* Repeating-key XOR
+* Single XOR
 
 # Encodings
 [Why do you have a lot of decoders?](https://github.com/Ciphey/Ciphey/wiki/Common-Issues-&-Their-Solutions#why-do-you-have-a-lot-of-encodings-you-should-work-on-real-world-ciphers-more)
