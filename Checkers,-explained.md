@@ -72,3 +72,10 @@ The best checker is a human.
 We can only try to guess what the plaintext is, but humans should always be able to spot plaintext.
 
 The Human checker uses laxer automated checking to ask you if the text is plaintext or not.
+
+# Polymorphic Checkers
+These are a really dark art, and have a *very* limited use case. 
+
+They allow you to create a `Checker`-like that accepts an object of any type. In fact, all `Checker`s are silently converted into this more general class when you use the `@registry.register` or `@registry.register_multi` decorators.
+
+If you wish to implement one, see the [extending ciphey docs](https://github.com/Ciphey/Ciphey/wiki/Extending-Ciphey)
