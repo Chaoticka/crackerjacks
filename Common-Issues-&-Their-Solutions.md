@@ -10,6 +10,10 @@ This is a known issue and the workaround is to use Docker.
 Ciphey does not support any version of Python below 3.7. Please use Docker or upgrade your Python version.
 [See here for our Docker instructions](https://github.com/Ciphey/Ciphey/wiki/Installation).
 
+# The install instructions on the README are confusing
+We have a much larger article for installation instructions.
+[See it here](https://github.com/Ciphey/Ciphey/wiki/Installation).
+
 # Ciphey runs forever / can't decrypt this input
 
 Is your plaintext one of these:
