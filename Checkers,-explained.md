@@ -60,6 +60,15 @@ Case insensitive.
 
 The user can specify different Regex in the program arguments or using the config file.
 # Entropy (coming soon)
-We plan to add an entropy checker to see if the data is ordered or not. We have the code already, but we need to implement a feature that asks the user if the output is correct else we may end up with many false positives.
+We plan to add an entropy checker to see if the data is ordered or not. Since the addition of the Human Checker, we plan to add this soon. We have the code -- just need to test it.
 # G-test of Goodness-of-fit
 We use [this](https://en.wikipedia.org/wiki/G-test) instead of Chi Squared (as we found it to work better in our testing).
+
+This is currently not its own checker (will be added soon) but is used in some of our crackers to determine whether or not is it worth continuing the computation of decrypting with a given key.
+
+# The Human Checker
+The best checker is a human.
+
+We can only try to guess what the plaintext is, but humans should always be able to spot plaintext.
+
+The Human checker uses laxer automated checking to ask you if the text is plaintext or not.
