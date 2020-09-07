@@ -38,12 +38,15 @@ And/or
 python3 -c "import sys; print(sys.version)"
 ```
 
-If Python is installed, one of these commands will run and will output the version number. Ciphey onlysupports numbers higher than 3.7. If you see "2" or anything below "3.7", we'll need to install a more up to date version.
 
-Make sure to note what command words. On your compputer, if `python -c "import sys; print(sys.version)"` returns something higher or equal to "3.7", then whenever you see `python3` instead write `python`.
+If Python is installed, one of these commands will run and will output the version number. Ciphey only supports numbers higher than 3.7. If you see "2" or anything below "3.7", we'll need to install a more up to date version.
 
+Make sure to note what command words. On your computer, if `python -c "import sys; print(sys.version)"` returns something higher or equal to "3.7", then whenever you see `python3` instead write `python`.
 
-Go to this website [https://www.python.org/](https://www.python.org/) and install Python3. Make sure the version is more than 3.7. By default. unless you expliticly choose a lower version, the version you install will > 3.7.
+**⚠️Windows Warning⚠️**
+On Windows? Python defaults to install 32-bit. Ciphey only supports 64-bit. When you download Python from the website on Windows it defaults to 32-bit. Make sure to download 64 bit!
+
+Go to this website [https://www.python.org/](https://www.python.org/) and install Python3. Make sure the version is more than 3.7. By default. unless you explicitly choose a lower version, the version you install will > 3.7.
 
 Next, we need to install **pip**. 
 
