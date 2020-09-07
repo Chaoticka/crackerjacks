@@ -7,6 +7,9 @@ Please see the sidebar on the right hand side for all of our pages.
 ## Join our Discord
 [https://discord.ciphey.online](https://discord.ciphey.online)
 
+## List of Supported Ciphers/Encodings/Hashes
+[https://github.com/Ciphey/Ciphey/wiki/Supported-Ciphers](https://github.com/Ciphey/Ciphey/wiki/Supported-Ciphers)
+
 # Pages to help you use Ciphey better
 * [Common things you may want to do but are confused about](https://github.com/Ciphey/Ciphey/wiki/Common-things-you-may-want-to-do)
 * [Checkers -- Learn how we check for plaintext. You may want to use a specific checker instead of all of them](https://github.com/Ciphey/Ciphey/wiki/Checkers,-explained)
