@@ -74,7 +74,7 @@ We can only try to guess what the plaintext is, but humans should always be able
 The Human checker uses laxer automated checking to ask you if the text is plaintext or not.
 
 # Polymorphic Checkers
-These are a really dark art, and have a *very* limited use case. 
+These are a really dark art, and have a *very* limited use case. We currently have no use of these checkers, but are planning on adding them for our more advanced cryptosystems support.
 
 They allow you to create a `Checker`-like that accepts an object of any type. In fact, all `Checker`s are silently converted into this more general class when you use the `@registry.register` or `@registry.register_multi` decorators.
 
