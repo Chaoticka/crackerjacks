@@ -1,11 +1,15 @@
 # I can't install Ciphey on Windows
-This is a known issue and the workaround is to use Docker.
+
+Ciphey only supports 64-bit Python, but if you download Python from the website it defaults to 32-bit Python. Please make sure your Python is 64-bit.
+
+Otherwise, use Docker.
 [See here for our Docker instructions](https://github.com/Ciphey/Ciphey/wiki/Installation).
 
 # I can't install Ciphey on Mac OS
 This is a known issue and the workaround is to use Docker.
 [See here for our Docker instructions](https://github.com/Ciphey/Ciphey/wiki/Installation).
-If you must make an issue because you feel you can contribute something, please [see this issue and add to it.](https://github.com/Ciphey/Ciphey/issues/362)
+
+If you might have information that is unique and can help us fix this bug, please [see this issue and add to it.](https://github.com/Ciphey/Ciphey/issues/362)
 
 # I can't install Ciphey on versions of Python under 3.7
 Ciphey does not support any version of Python below 3.7. Please use Docker or upgrade your Python version.
