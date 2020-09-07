@@ -78,4 +78,4 @@ These are a really dark art, and have a *very* limited use case.
 
 They allow you to create a `Checker`-like that accepts an object of any type. In fact, all `Checker`s are silently converted into this more general class when you use the `@registry.register` or `@registry.register_multi` decorators.
 
-If you wish to implement one, see the [extending ciphey docs](https://github.com/Ciphey/Ciphey/wiki/Extending-Ciphey)
+If you wish to implement one, see the [relevant docs](https://github.com/Ciphey/Ciphey/wiki/Extending-Ciphey)
