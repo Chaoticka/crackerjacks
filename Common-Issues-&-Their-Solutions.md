@@ -61,12 +61,11 @@ To wrap up, we have a lot of encodings because:
 2. What is plaintext to you and I won't be plaintext to a computer unless we write the code to decode it into plaintext.
 3. Decodings are significantly easier to work on than crackers (most of our crackers are written in C++, whereas Decoders are pure Python).
 
-```
-**Why can't Ciphey bruteforce this ciphertext which is encrypted with a AES-128 bit key?**
 
+-----
+##### Why can't Ciphey bruteforce this ciphertext which is encrypted with a AES-128 bit key?**
 This would take more energy than there is in the solar system.
-
 Also, yes, this was a genuine question someone asked.
-```
+
 
 
