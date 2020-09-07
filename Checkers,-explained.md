@@ -55,6 +55,7 @@ The Regex checker runs a Regex against the ctext. By default we check for CTF fl
 2. THM{*.}
 3. FLAG{*.}
 4. CTF{*.}
+
 Case insensitive.
 
 The user can specify different Regex in the program arguments or using the config file.
