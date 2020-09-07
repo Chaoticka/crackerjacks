@@ -87,8 +87,19 @@ worked out it was the solution (or an empty string if this isn't possible),
 or `None` if it wasn't the solution.
 
 `getExpectedRuntime() -> float` should be used to give a rough idea about how
-many seconds this should take to run. If you don't know, a value of ``1`` is
-absolutely fine.
+many seconds this should take to run. If you don't know, a value of ``0`` is
+recommended.
+
+# PolymorphicChecker
+
+This has pretty much the same interface as Checker, but takes no type arguments.
+For the sake of brevity, I will not repeat all of the methods again. 
+Instead, read through the `Checker` documentation with `T` being replaced with
+`Any`.
+
+Remember to *whitelist* the types you wish to be passed, so that you don't
+end up with unexpected behaviour when new types are added, or at least get less
+of it :p.
 
 # Cracker
 
@@ -123,7 +134,7 @@ decoding correctly passed data.
 
 `priority() -> float` is an static method that should return a very rough
 estimate of the liklihood that this encoding will turn up.
-`Base64`` and `Base16` have this set to `0.4`,
+`Base64` and `Base16` have this set to `0.4`,
 whereas `Morse` has this set to `0.05`. Use that as a rough guide.
 
 # ResourceLoader
