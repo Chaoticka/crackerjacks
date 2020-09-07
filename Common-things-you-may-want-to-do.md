@@ -7,9 +7,19 @@ This page will show you specific applications of Ciphey.
 ## How do I enable nested encryption?
 [We held a vote and found that nested encryptions by default wasn't something people wanted.](https://github.com/Ciphey/Ciphey/issues/327)
 ```
--p ausearch.enable_nested=True
+ciphey -p ausearch.enable_nested=True
 ```
 ## How do I use Regex?
 ```
--C regex -p regex.regex={
+ciphey -C regex -p regex.regex={
 ```
+
+## How do I disable the human checker?
+Set the verbosity to less than 0.
+
+```
+ciphey -q
+```
+
+-q sets the verbosity to -1.
+
