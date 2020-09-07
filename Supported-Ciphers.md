@@ -68,5 +68,5 @@ This is based on pull requests / support given in the Discord chat.
 * A1Z26
 * Prisoner's Tap Code
 * URL decoding
-* DNA-to-binary
+* DNA condons
 * ROT47
