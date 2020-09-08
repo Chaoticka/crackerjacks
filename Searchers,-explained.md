@@ -35,14 +35,14 @@ Where heuristic = success_runtime + (1-success_likelihood)/success_likelihood  *
 
 The 2 big players in this algorithm are runtime and probability of success (as well as the time of that success). We will try cheap (fast) decryptions first which are likely, but if we have an expensive decryption and we are sure that's the right answer we won't skip over it.
 
-The Shannen Entropy reduces the more decryptions we do (at least on average in our testing). We can use entropy to work out which path is leading us to the right decryption method even if we do not know what the text is encrypted with.
+The Shannon Entropy reduces the more decryptions we do (at least on average in our testing). We can use entropy to work out which path is leading us to the right decryption method even if we do not know what the text is encrypted with.
 
-Shannen entropy let's us see if we are going in the right direction.
+Shannon entropy let's us see if we are going in the right direction.
 
 ![](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0e1c211c-f3ef-4c0f-aa71-fcc5749583c3_1437x1195.png)
 This is encrypted with Base64 -> Rot13 -> Vigenère (key: “key”).
 
-The Shannen Entropy is 5.23.
+The Shannon Entropy is 5.23.
 
 Now if we “decode Base64” and get the entropy again:
 ![](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9ceeddb-dece-4113-96c9-5a8c5776ce34_1441x1189.png)
