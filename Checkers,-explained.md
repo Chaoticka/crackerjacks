@@ -1,4 +1,4 @@
-We use multiple different checkers to check for when something becomes plaintext.
+Ciphey currently uses **7 checkers** to determine plaintext.
 
 # Language Checking
 Our language checker is called `brandon`, since we couldn't think of a better name.
