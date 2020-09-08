@@ -27,7 +27,7 @@ This is still a work in progress and you cannot use this system yet.
 * Offline 
 * Core approved (as in, crackers / decoders that the core team have created)
 * Community
-* Most popular (taken from our website, when we build it)
+* Most popular
 * Meme (the hint might be "funny number base encoding" or something)
 * Crackers
 * Encoders
