@@ -24,16 +24,17 @@ Ciphey currently supports **34 encryptions, encodings, and hashes.** **14** of t
 *  Base32
 *  Base58 Bitcoin
 *  Base58 Ripple
-* Base58 Flickr (release candidate stage)
+*  Base58 Flickr (release candidate stage)
 *  Base62
 *  Base64
+*  Base64 URL (release candidate stage)
 *  Base69
 *  Base85
-* Z85 (release candidate stage)
+*  Z85 (release candidate stage)
 *  ASCII Base85
 *  Base91
 *  ASCII
-* Binary
+*  Binary
 
 * Morse Code
 
