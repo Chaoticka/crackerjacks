@@ -37,3 +37,7 @@ Maybe you're interested in how this works :detective:
 * [A long list of features](https://github.com/Ciphey/Ciphey/wiki/Features)
 * [Our supported ciphers](https://github.com/Ciphey/Ciphey/wiki/Supported-Ciphers)
 * [Artificial Intelligence Search Algorithms, explained](https://github.com/Ciphey/Ciphey/wiki/Searchers,-explained)
+
+# Future Wiki Pages
+Pages which are being worked on right now for features that are not fully implemented yet.
+* [Tagging System](https://github.com/Ciphey/Ciphey/wiki/Tagging-System)
