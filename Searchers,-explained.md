@@ -29,7 +29,7 @@ The formula for our A* search is:
 
 ```
 expected time / probability + k * heuristic, for some experimentally determined value of k
-Where k = Shannen Entropy
+Where k = Shannon Entropy
 Where heuristic = success_runtime + (1-success_likelihood)/success_likelihood  * failure_runtime
 ```
 
