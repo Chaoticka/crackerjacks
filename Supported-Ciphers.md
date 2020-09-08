@@ -1,4 +1,4 @@
-Ciphey currently supports **34 encryptions, encodings, and hashes.** **14** of these are community contributions.
+Ciphey currently supports **35 encryptions, encodings, and hashes.** **14** of these are community contributions.
 # Basic Encryptions
 
 * Caesar Cipher
