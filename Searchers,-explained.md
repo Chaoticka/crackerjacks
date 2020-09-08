@@ -18,7 +18,7 @@ We determine priority based on how likely something is to appear, and how easy i
 
 For example, Base64 appears all the time and it's very cost-efficient to check as much as we want so it's a high priority. Whereas Vigenère doesn't appear too often and it's expensive to check so it's a lower priority.
 
-This is a hand-created heuristic that our next search algorithm will be able to fix.
+This is a hand-created heuristic that our next search algorithm will be able to automate.
 
 # Imperfection (A* search)
 Imperfection is our next goal in terms of searching. It is an A* algorithm where the heuristic matches the close priority in AU search.
