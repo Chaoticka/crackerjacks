@@ -49,6 +49,14 @@ You can see our thresholds [here](https://github.com/Ciphey/CipheyDists/blob/mas
 
 # JSON
 The JSON checker works by running `json.loads(ctext)` on the ciphertext. If it succeeds, it is JSON and returns True.
+
+The input:
+```
+192834131381
+```
+
+is valid JSON. This is not plaintext, so we have edited the JSON checker to comply. See [#389](https://github.com/Ciphey/Ciphey/issues/389)
+
 # Regex
 The Regex checker runs a Regex against the ctext. By default we check for CTF flags. These include:
 1. HTB{*.}
