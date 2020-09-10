@@ -11,7 +11,7 @@
 
 # Pages to help you use Ciphey better
 * [Common things you may want to do but are confused about](https://github.com/Ciphey/Ciphey/wiki/Common-things-you-may-want-to-do)
-* [Importing Ciphey]()
+* [Importing Ciphey](https://github.com/Ciphey/Ciphey/wiki/Importing-Ciphey)
 * [Checkers -- Learn how we check for plaintext. You may want to use a specific checker instead of all of them](https://github.com/Ciphey/Ciphey/wiki/Checkers,-explained)
 * [The settings file](https://github.com/Ciphey/Ciphey/wiki/The-Settings-File)
 * [Our very long hard-to-read full features page](https://github.com/Ciphey/Ciphey/wiki/Features)
