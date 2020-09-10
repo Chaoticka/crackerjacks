@@ -39,7 +39,7 @@ Ciphey currently supports **35 encryptions, encodings, and hashes.**
 * Morse Code
 
 * Morse Code with new lines
-
+* DNA codons (release candidate stage)
 
 * Atbash
 
@@ -69,5 +69,4 @@ This is based on pull requests / support given in the Discord chat.
 * A1Z26
 * Prisoner's Tap Code
 * URL decoding
-* DNA codons
 * ROT47
