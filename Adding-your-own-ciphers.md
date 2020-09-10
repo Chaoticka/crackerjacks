@@ -146,7 +146,7 @@ The final function is `getTarget()`.
 
    @registry.register
    class FirstLetter(Decoder[str, str]):
-       @staticmethod
+       
        def decode(self, ctext: str) -> Optional[str]:
            """Write the code that decodes here
            ctext -> the input to the function
@@ -159,6 +159,7 @@ The final function is `getTarget()`.
                ret.append[word[0]]
            # and then return the list as a single word
            return ''.join(ret)
+
        @staticmethod
        def priority() -> float:
            """How often is this seen in a CTF out of 1
