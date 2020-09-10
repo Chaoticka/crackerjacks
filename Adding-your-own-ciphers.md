@@ -366,3 +366,7 @@ And include the `-vvv` on the end.
 This will provide you with a lot of information on what Ciphey is doing.
 
 if this does not work, and you are absolutely sure your code works submit it as a draft PR and let us know. Or contact us in the Discord.
+
+# What your function returns
+* If your function has a chance of failing, in that failing case it should return `None`.
+* If your function works on every single text (I.E. the function you are using (from an external library maybe) never fails to return) you should see to see if the input string is different from the resulting string. If they are, return the resulting string else return None. This is because your function would return True for every single input which would result in a mess in the Ciphey logs.
