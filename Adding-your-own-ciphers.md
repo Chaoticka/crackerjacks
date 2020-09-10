@@ -301,7 +301,3 @@ class Caesar(ciphey.iface.Cracker[str]):
 ```
                 
 If you need help with this, create a GitHub issue or contact us on Discord at discord.ciphey.online.
-
-# What your function returns
-* If your function has a chance of failing, in that failing case it should return `None`.
-* If your function works on every single text (I.E. the function you are using (from an external library maybe) never fails to return) you should see to see if the input string is different from the resulting string. If they are, return the resulting string else return None. This is because your function would return True for every single input which would result in a mess in the Ciphey logs.
