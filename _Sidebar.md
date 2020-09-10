@@ -20,6 +20,7 @@
 2. [Testing your code](https://github.com/Ciphey/Ciphey/wiki/Testing-your-cracker---decoder)
 3. [Check this before making a pull request](https://github.com/Ciphey/Ciphey/wiki/What-to-check-before-a-pull-request)
 
+# Contributing
 * [What are all the repos in Ciphey? You only really need to know Ciphey, CipheyDists, and CipheyCore](https://github.com/Ciphey/Ciphey/wiki/Ciphey's-Repos,-explained)
 * [Things to check before submitting a PR](https://github.com/Ciphey/Ciphey/wiki/Things-to-check-before-submitting-a-PR)
 * [Extending Ciphey](https://github.com/Ciphey/Ciphey/wiki/Extending-Ciphey)
