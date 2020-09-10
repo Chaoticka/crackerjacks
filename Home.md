@@ -24,7 +24,7 @@ Please see the sidebar on the right hand side for all of our pages.
 
 # Adding your own crackers / decoders
 1. [Adding your own ciphers to Ciphey](https://github.com/Ciphey/Ciphey/wiki/Adding-your-own-ciphers)
-2. https://github.com/Ciphey/Ciphey/wiki/Running-Ciphey-for-Contributors
+2. [Running Ciphey](https://github.com/Ciphey/Ciphey/wiki/Running-Ciphey-for-Contributors)
 3. [Testing your code](https://github.com/Ciphey/Ciphey/wiki/Testing-your-cracker---decoder)
 4. [Check this before making a pull request](https://github.com/Ciphey/Ciphey/wiki/What-to-check-before-a-pull-request)
 
