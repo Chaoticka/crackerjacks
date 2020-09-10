@@ -15,8 +15,11 @@
 * [Common Issues and their solutions](https://github.com/Ciphey/Ciphey/wiki/Common-Issues-&-Their-Solutions)
 * [List of known bugs](https://github.com/Ciphey/Ciphey/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 
-# Pages to help you contribute to Ciphey
-* [Adding your own ciphers to Ciphey](https://github.com/Ciphey/Ciphey/wiki/Adding-your-own-ciphers)
+# Adding your own crackers / decoders
+1. [Adding your own ciphers to Ciphey](https://github.com/Ciphey/Ciphey/wiki/Adding-your-own-ciphers)
+2. [Testing your code](https://github.com/Ciphey/Ciphey/wiki/Testing-your-cracker---decoder)
+3. [Check this before making a pull request](https://github.com/Ciphey/Ciphey/wiki/What-to-check-before-a-pull-request)
+
 * [What are all the repos in Ciphey? You only really need to know Ciphey, CipheyDists, and CipheyCore](https://github.com/Ciphey/Ciphey/wiki/Ciphey's-Repos,-explained)
 * [Things to check before submitting a PR](https://github.com/Ciphey/Ciphey/wiki/Things-to-check-before-submitting-a-PR)
 * [Extending Ciphey](https://github.com/Ciphey/Ciphey/wiki/Extending-Ciphey)
