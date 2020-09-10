@@ -58,3 +58,5 @@ Fill out the description (what it is you're getting from CipheyDists), whether o
 In this case, the Galactic dictionary is in CipheyDists, it is in the translate subdirectory and it is called "galactic". If we look at the [code](https://github.com/Ciphey/CipheyDists/blob/master/cipheydists/translate/galactic.json) we can see this is true.
 
 This is our [resource loader](https://github.com/Ciphey/Ciphey/wiki/Extending-Ciphey#resourceloader). You don't need to know much about it, other than it allows you to select resources without memorising weird file paths.
+
+**Make sure to bump up the version of CipheyDists in your fork when we push a release to CipheyDists**
