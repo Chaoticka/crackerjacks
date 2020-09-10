@@ -94,7 +94,7 @@ For our purposes, let’s build the first letter function.
        for word in ctext.split(" "):
            # for each word in the ctext, append the first letter
            # of that word to a list
-           ret.append[word[0]]
+           ret.append(word[0])
        # and then return the list as a single word
        return ''.join(ret)
  ```
@@ -130,7 +130,7 @@ The final function is `getTarget()`.
        """The name of the decoding ussed
        returns string
        """
-       return "firtLetter"
+       return "firstLetter"
        
 ```
        
