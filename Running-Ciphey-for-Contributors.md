@@ -1,3 +1,5 @@
+So you've added some code to Ciphey and now want to run it. How do you run Ciphey?
+
 # Poetry
 The core team uses [Poetry](https://python-poetry.org/) to run Ciphey. 
 
