@@ -49,6 +49,8 @@ Ciphey currently supports **37 encryptions, encodings, and hashes.**
 
 # Hashes
 
+Ciphey supports 272 hashes.
+
 * MD5
 
 * SHA-1
