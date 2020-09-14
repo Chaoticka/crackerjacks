@@ -5,11 +5,11 @@ possible for you to add a cipher to Ciphey.
 
 # Decoders vs Crackers
 
-An encoding is defined as: "Any form of encryption that doesn’t use a key". Also to note, decodings take significantly less time than a cracker. So for example, Base64 doesn’t require a key. But caesar cipher
+An encoding is defined as: "Any form of encryption that doesn’t use a key." Also, decodings take significantly less time than a cracker. So for example, Base64 doesn’t require a key. But Caesar cipher
 requires a key.
 
 Decoders are located in `ciphey/basemods/Decoder` Crackers are
-located in `ciphey/basemods/Crackers` and also in cipheyCore. We’ll
+located in `ciphey/basemods/Crackers` and also in CipheyCore. We’ll
 talk more about this later.
 
 We’ll walk through adding a decoder first.
@@ -76,7 +76,7 @@ Let’s rename it to firstLetter:
 ```
 
 
-**⚠️Warning**: Notice how `Decoder[T, U]` changes into `Decoder[str, str]`. This is because it is taking a string, and outputting a string. It's common for Ciphey to also have `Decode[bytes, bytes]` for things that are not strictly UTF-8.
+**⚠️ Warning**: Notice how `Decoder[T, U]` changes into `Decoder[str, str]`. This is because it is taking a string, and outputting a string. It's common for Ciphey to also have `Decode[bytes, bytes]` for things that are not strictly UTF-8.
 
 Now, to write the decode function. This is the part that you created and
 work on! I would suggest building it locally, in a separate file and
@@ -118,7 +118,7 @@ number, such as 0.05.
 ```
 
 The next function will be the defParams() function. Only use this
-function if your decoder has to return paraemters. Most of the time, it
+function if your decoder has to return parameters. Most of the time, it
 will not.
 
 The final function is `getTarget()`.
@@ -177,11 +177,11 @@ The final function is `getTarget()`.
            """The name of the decoding ussed
            returns string
            """
-           return "firtLetter"
+           return "firstLetter"
 ```
 
 
-**⚠️Warning**: This is a step often overlooked. In the Decoding folder there is a file called `__init__.py`. Edit this file and add your decoder to it. 
+**⚠️ Warning**: This is a step often overlooked. In the Decoding folder there is a file called `__init__.py`. Edit this file and add your decoder to it. 
 
 
 **Note**: Now run Ciphey to see if it works. We use Poetry to run Ciphey. Poetry creates a virtualenv when you run Ciphey, so you know it'll work for us exactly how it works for you. In the root directory of Ciphey (next to the README.md file) run `poetry run ciphey -t "he elephant lollll lameeeee octopus"`. If your decoder doesn't work, run "-vvv" to see what's happening & contact us via Discord or a GitHub issue.
