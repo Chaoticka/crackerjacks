@@ -73,7 +73,7 @@ To wrap up, we have a lot of encodings because:
 
 
 -----
-##### Why can't Ciphey bruteforce this ciphertext which is encrypted with a AES-128 bit key?**
+##### Why can't Ciphey bruteforce this ciphertext which is encrypted with a AES-128 bit key?
 This would take more energy than there is in the solar system.
 Also, yes, this was a genuine question someone asked.
 
