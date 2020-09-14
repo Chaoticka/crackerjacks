@@ -15,7 +15,7 @@ If you might have information that is unique and can help us fix this bug, pleas
 Ciphey does not support any version of Python below 3.7. Please use Docker or upgrade your Python version.
 [See here for our Docker instructions](https://github.com/Ciphey/Ciphey/wiki/Installation).
 
-# The install instructions on the README are confusing
+# The installation instructions on the README are confusing
 We have a much larger article for installation instructions.
 [See it here](https://github.com/Ciphey/Ciphey/wiki/Installation).
 
@@ -38,7 +38,7 @@ We have seen both of these bugs in production:
 
 To prevent the wrong plaintext from being outputted, Ciphey has to use `checkers` to check to see if the plaintext is really the plaintext the user wants.
 
-By default we support CTF flags (in the format THM{*}, HTB{*}, CTF{*}, FLAG{*}), English & JSON. 
+By default, we support CTF flags (in the format THM{*}, HTB{*}, CTF{*}, FLAG{*}), English & JSON. 
 
 If your plaintext is not one of these, we cannot decrypt it.
 
