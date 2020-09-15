@@ -46,6 +46,7 @@ Ciphey currently supports **37 encryptions, encodings, and hashes.**
 * Standard Galactic Alphabet (aka Minecraft Enchanting Language)
 * Leetspeak
 * Baudot ITA2
+* URL encoding
 
 # Hashes
 
@@ -71,5 +72,4 @@ NOTE: Hashes are turned off right now due to some bugs with external services we
 This is based on pull requests / support given in the Discord chat.
 * A1Z26
 * Prisoner's Tap Code
-* URL decoding
 * ROT47
