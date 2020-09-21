@@ -47,7 +47,7 @@ Ciphey currently supports **39 encryptions, encodings, and hashes.**
 * Leetspeak
 * Baudot ITA2
 * URL encoding
-* Multi Tap Decoding
+* SMS Multi-tap
 
 # Hashes
 
