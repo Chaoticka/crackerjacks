@@ -33,7 +33,7 @@ Ciphey currently supports **40 encryptions, encodings, and hashes.**
 *  Z85 (release candidate stage)
 *  ASCII Base85
 *  Base91
-* Base65535 (release candidate stage)
+*  Base65536 (release candidate stage)
 *  ASCII
 *  Binary
 
