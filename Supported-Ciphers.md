@@ -50,6 +50,7 @@ Ciphey currently supports **41 encryptions, encodings, and hashes.**
 * URL encoding
 * SMS Multi-tap
 * DMTF (release candidate stage)
+* A1Z26 (release candidate stage)
 
 # Hashes
 
@@ -73,6 +74,5 @@ NOTE: Hashes are turned off right now due to some bugs with external services we
 
 # Current ciphers in the works
 This is based on pull requests / support given in the Discord chat.
-* A1Z26
 * Prisoner's Tap Code
 * ROT47
