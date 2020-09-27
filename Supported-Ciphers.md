@@ -49,7 +49,7 @@ Ciphey currently supports **41 encryptions, encodings, and hashes.**
 * Baudot ITA2
 * URL encoding
 * SMS Multi-tap
-* DMTF
+* DMTF (release candidate stage)
 
 # Hashes
 
