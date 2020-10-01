@@ -1,4 +1,4 @@
-Ciphey currently supports **42 encryptions, encodings, and hashes.**
+Ciphey currently supports **43 encryptions, encodings, and hashes.**
 # Basic Encryptions
 
 * Caesar Cipher
@@ -51,6 +51,7 @@ Ciphey currently supports **42 encryptions, encodings, and hashes.**
 * SMS Multi-tap
 * DMTF (release candidate stage)
 * A1Z26 (release candidate stage)
+* Prisoner's Tap Code
 
 # Hashes
 
