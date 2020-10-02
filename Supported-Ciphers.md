@@ -75,6 +75,6 @@ NOTE: Hashes are turned off right now due to some bugs with external services we
 
 # Current ciphers in the works
 This is based on pull requests / support given in the Discord chat.
-* Braile
+* Grade 1 Braile
 * ROT47
 * BrainFuck
