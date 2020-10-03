@@ -1,4 +1,4 @@
-Ciphey currently supports **43 encryptions, encodings, and hashes.**
+Ciphey currently supports **44 encryptions, encodings, and hashes.**
 # Basic Encryptions
 
 * Caesar Cipher
