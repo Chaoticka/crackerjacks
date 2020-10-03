@@ -53,6 +53,9 @@ Ciphey currently supports **43 encryptions, encodings, and hashes.**
 * A1Z26 (release candidate stage)
 * Prisoner's Tap Code
 
+# Esoteric Languages (EsoLang)
+* BrainFuck
+
 # Hashes
 
 Ciphey supports 272 hashes.
