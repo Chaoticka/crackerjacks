@@ -54,7 +54,7 @@ Ciphey currently supports **44 encryptions, encodings, and hashes.**
 * Prisoner's Tap Code
 
 # Esoteric Languages (EsoLang)
-* BrainFuck
+* Brainfuck
 
 # Hashes
 
@@ -78,6 +78,5 @@ NOTE: Hashes are turned off right now due to some bugs with external services we
 
 # Current ciphers in the works
 This is based on pull requests / support given in the Discord chat.
-* Grade 1 Braile
+* Grade 1 Braille
 * ROT47
-* BrainFuck
