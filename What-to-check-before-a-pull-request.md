@@ -60,3 +60,9 @@ In this case, the Galactic dictionary is in CipheyDists, it is in the translate 
 This is our [resource loader](https://github.com/Ciphey/Ciphey/wiki/Extending-Ciphey#resourceloader). You don't need to know much about it, other than it allows you to select resources without memorising weird file paths.
 
 **Make sure to bump up the version of CipheyDists in your fork when we push a release to CipheyDists**
+
+# Mathematical Functions
+
+Do you have a generic mathematical function like `modInv` (Modular Inverse)? Do you think this will come up again in another cracker / decoder?
+
+Add it to our small maths library [https://github.com/Ciphey/Ciphey/blob/master/ciphey/mathsHelper.py](https://github.com/Ciphey/Ciphey/blob/master/ciphey/mathsHelper.py).
