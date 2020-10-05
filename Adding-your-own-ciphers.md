@@ -8,6 +8,8 @@ possible for you to add a cipher to Ciphey.
 An encoding is defined as: "Any form of encryption that doesn’t use a key." Also, decodings take significantly less time than a cracker. So for example, Base64 doesn’t require a key. But Caesar cipher
 requires a key.
 
+However, note that any decoding which returns multiple possibilities (so it's not a 1-to-1 map, it's a 1-to-n map) must be implemented as a cracker.
+
 Decoders are located in `ciphey/basemods/Decoder` Crackers are
 located in `ciphey/basemods/Crackers` and also in CipheyCore. We’ll
 talk more about this later.
