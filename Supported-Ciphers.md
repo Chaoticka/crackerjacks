@@ -1,4 +1,4 @@
-Ciphey currently supports **46 encryptions, encodings, and hashes.**
+Ciphey currently supports **47 encryptions, encodings, and hashes.**
 # Basic Encryptions
 
 * Caesar Cipher
@@ -47,6 +47,7 @@ Ciphey currently supports **46 encryptions, encodings, and hashes.**
 * DMTF (release candidate stage)
 * A1Z26 (release candidate stage)
 * Prisoner's Tap Code
+* UUencode
 
 # Esoteric Languages (EsoLang)
 * Brainfuck
@@ -71,4 +72,6 @@ NOTE: Hashes are turned off right now due to some bugs with external services we
 This is based on pull requests / support given in the Discord chat.
 * Grade 1 Braille
 * Baconian
-* UUencode
+* Ook
+* Affine Cracker
+* Viginere (but in Python)
