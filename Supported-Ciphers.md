@@ -1,4 +1,4 @@
-Ciphey currently supports **47 encryptions, encodings, and hashes.**
+Ciphey currently supports **46 encryptions, encodings, and hashes.**
 # Basic Encryptions
 
 * Caesar Cipher
@@ -36,7 +36,6 @@ Ciphey currently supports **47 encryptions, encodings, and hashes.**
 * ASCII
 * Reversed text
 * Morse Code
-* Morse Code with new lines
 * DNA codons (release candidate stage)
 * Atbash
 * Standard Galactic Alphabet (aka Minecraft Enchanting Language)
@@ -73,5 +72,5 @@ This is based on pull requests / support given in the Discord chat.
 * Grade 1 Braille
 * Baconian
 * Ook
-* Affine Cracker
-* Viginere (but in Python)
+* Affine
+* Vigenere (but in Python)
