@@ -1,10 +1,11 @@
-Ciphey currently supports **46 encryptions, encodings, and hashes.**
+Ciphey currently supports **47 encryptions, encodings, and hashes.**
 # Basic Encryptions
 
 * Caesar Cipher
 * ROT47 (up to ROT94 with the ROT47 alphabet)
 * ASCII shift (up to ROT127 with the full ASCII alphabet)
 * Vigenère Cipher
+* Affine Cipher
 * Binary Substitution Cipher (XY-Cipher)
 * Transposition Cipher
 * Pig Latin
@@ -72,5 +73,4 @@ This is based on pull requests / support given in the Discord chat.
 * Grade 1 Braille
 * Baconian
 * Ook
-* Affine
 * Vigenere (but in Python)
