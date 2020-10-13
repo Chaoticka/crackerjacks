@@ -7,7 +7,7 @@ Ciphey currently supports **48 encryptions, encodings, and hashes.**
 * Vigenère Cipher
 * Affine Cipher
 * Binary Substitution Cipher (XY-Cipher)
-* Baconian (both variants)
+* Baconian Cipher (both variants)
 * Transposition Cipher
 * Pig Latin
 
