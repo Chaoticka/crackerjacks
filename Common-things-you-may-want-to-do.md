@@ -10,6 +10,7 @@ This page will show you specific applications of Ciphey.
 ciphey -p ausearch.enable_nested=True
 ```
 ## How do I use Regex?
+Use this as a **crib**. If you know some plaintext but not all of it, this will help Ciphey a lot.
 ```
 ciphey -C regex -p regex.regex={
 ```
