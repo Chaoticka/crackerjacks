@@ -1,4 +1,4 @@
-Ciphey currently supports **48 encryptions, encodings, and hashes.**
+Ciphey currently supports **49 encryptions, encodings, and hashes.**
 # Basic Encryptions
 
 * Caesar Cipher
@@ -8,6 +8,7 @@ Ciphey currently supports **48 encryptions, encodings, and hashes.**
 * Affine Cipher
 * Binary Substitution Cipher (XY-Cipher)
 * Baconian Cipher (both variants)
+* Soundex
 * Transposition Cipher
 * Pig Latin
 
@@ -72,6 +73,5 @@ Ciphey supports 272 hashes.
 # Current ciphers in the works
 This is based on pull requests / support given in the Discord chat.
 * Grade 1 Braille
-* Soundex
 * Ook
 * Vigenere (but in Python)
