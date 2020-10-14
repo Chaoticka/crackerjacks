@@ -55,6 +55,8 @@ Ciphey currently supports **48 encryptions, encodings, and hashes.**
 
 # Hashes
 
+**NOTE: Hashes are turned off right now due to some bugs with external services we cannot control.**
+
 Ciphey supports 272 hashes.
 
 * MD5
@@ -62,8 +64,6 @@ Ciphey supports 272 hashes.
 * SHA-256
 * SHA-384
 * SHA-512
-
-NOTE: Hashes are turned off right now due to some bugs with external services we cannot control.
 
 # What Ciphers are going to be implemented next?
 
