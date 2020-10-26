@@ -74,4 +74,5 @@ Ciphey supports 272 hashes.
 This is based on pull requests / support given in the Discord chat.
 * Grade 1 Braille
 * Ook
+* Playfair
 * Vigenere (but in Python)
