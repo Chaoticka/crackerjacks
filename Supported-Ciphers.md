@@ -1,4 +1,4 @@
-Ciphey currently supports **49 encryptions, encodings, and hashes.**
+Ciphey currently supports **50 encryptions, encodings, compression methods, and hashes.**
 # Basic Encryptions
 
 * Caesar Cipher
@@ -53,6 +53,9 @@ Ciphey currently supports **49 encryptions, encodings, and hashes.**
 
 # Esoteric Languages (EsoLang)
 * Brainfuck
+
+# Compression Methods
+* GZip
 
 # Hashes
 
