@@ -1,4 +1,4 @@
-Ciphey currently supports **50 encryptions, encodings, compression methods, and hashes.**
+Ciphey currently supports **51 encryptions, encodings, compression methods, and hashes.**
 # Basic Encryptions
 
 * Caesar Cipher
@@ -50,6 +50,7 @@ Ciphey currently supports **50 encryptions, encodings, compression methods, and 
 * A1Z26 (release candidate stage)
 * Prisoner's Tap Code
 * UUencode
+* Braille (Grade 1)
 
 # Esoteric Languages (EsoLang)
 * Brainfuck
@@ -75,7 +76,6 @@ Ciphey supports 272 hashes.
 
 # Current ciphers in the works
 This is based on pull requests / support given in the Discord chat.
-* Grade 1 Braille
 * Ook
 * Playfair
 * Vigenere (but in Python)
