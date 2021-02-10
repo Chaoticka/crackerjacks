@@ -6,8 +6,15 @@ Otherwise, use Docker.
 [See here for our Docker instructions](https://github.com/Ciphey/Ciphey/wiki/Installation).
 
 # I can't install Ciphey on Mac OS
-This is a known issue and the workaround is to use Docker.
-[See here for our Docker instructions](https://github.com/Ciphey/Ciphey/wiki/Installation).
+Try using Macports!
+
+[Click here for how to install MacPorts.](https://www.macports.org/install.php)
+
+```
+sudo port install ciphey
+```
+
+Our MacPorts port is maintained by @harens.
 
 If you might have information that is unique and can help us fix this bug, please [see this issue and add to it.](https://github.com/Ciphey/Ciphey/issues/362)
 
