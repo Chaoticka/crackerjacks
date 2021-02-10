@@ -14,7 +14,7 @@ Try using Macports!
 sudo port install ciphey
 ```
 
-Our MacPorts port is maintained by @harens.
+Our MacPorts port is maintained by [@harens](https://github.com/harens).
 
 If you might have information that is unique and can help us fix this bug, please [see this issue and add to it.](https://github.com/Ciphey/Ciphey/issues/362)
 
