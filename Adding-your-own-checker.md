@@ -70,7 +70,7 @@ class ChiSquared(Checker[str]):
         logger.debug(chi_sq / len(text))
         if chi_sq / len(text) > 50.0:
             print(chi_sq / len(text))
-            return True
+            return ""
         return None
 
 
@@ -94,7 +94,7 @@ class ChiSquared(Checker[str]):
         }
 ```
 
-**Important** Your checker needs to return True for it's worked, and None for it's failed.
+**Important** Your checker needs to return `""` for it's worked, and None for it's failed.
 
 Next add your checker to:
 
