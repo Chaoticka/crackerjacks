@@ -34,6 +34,7 @@ Please see the sidebar on the right-hand side for all of our pages.
 * [Extending Ciphey](https://github.com/Ciphey/Ciphey/wiki/Extending-Ciphey)
 * [How do our checkers work? You may run into problems with them. DM us on Discord or make a GitHub issue if you do](https://github.com/Ciphey/Ciphey/wiki/Checkers,-explained)
 * [Our Discord. Contact us here for support in adding things to Ciphey.](https://discord.ciphey.online)
+* [Adding your own checkers](https://github.com/Ciphey/Ciphey/wiki/Adding-your-own-checker)
 
 # Pages to help you understand how Ciphey works
 Maybe you're interested in how this works :detective: 
