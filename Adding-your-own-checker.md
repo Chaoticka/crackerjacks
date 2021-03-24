@@ -94,6 +94,8 @@ class ChiSquared(Checker[str]):
         }
 ```
 
+**Important** Your checker needs to return True for it's worked, and None for it's failed.
+
 Next add your checker to:
 
 ```
