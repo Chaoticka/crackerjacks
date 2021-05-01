@@ -5,7 +5,7 @@ In this wiki you'll find lots of information about Ciphey.
 Please see the sidebar on the right-hand side for all of our pages.
 
 ## Join our Discord
-[https://discord.ciphey.online](https://discord.ciphey.online)
+[https://discord.skerritt.blog](http://discord.skerritt.blog)
 
 ## List of Supported Ciphers/Encodings/Hashes
 [https://github.com/Ciphey/Ciphey/wiki/Supported-Ciphers](https://github.com/Ciphey/Ciphey/wiki/Supported-Ciphers)
