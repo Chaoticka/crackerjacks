@@ -87,6 +87,16 @@ By having hundreds of them, we can create a more "generalised" checker which is 
 
 TL;DR is that this is a general checker using the shotgun approach, but each shotgun pellet is a sniper rifle shot.
 
+# QuadGrams
+
+Quadgrams are 4 letters together which are seen commonly. An example is `exam`. 
+
+This checker goes through every 4 letters in the text and if the 4 letters match one of the quadgrams, it increments a counter.
+
+If a certain percentage of all quadgrams are matched in the text, then we return true.
+
+This checker is more general than a hyper-specific dictionary checker.
+
 # The Human Checker
 The best checker is a human.
 
