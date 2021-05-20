@@ -67,12 +67,6 @@ The Regex checker runs a Regex against the ctext. By default we check for CTF fl
 Case insensitive.
 
 The user can specify different Regex in the program arguments or using the config file.
-# Entropy (coming soon)
-We plan to add an entropy checker to see if the data is ordered or not. Since the addition of the Human Checker, we plan to add this soon. We have the code -- just need to test it.
-
-This checker has lower accuracy but higher generality. All the checkers you have seen until now solve very specific problems very well. JSON, Language (English), or Regex.
-
-The entropy checker is designed to find things that are ordered (and thus may be plaintext) but aren't picked up by the other checkers.
 
 # G-test of Goodness-of-fit
 We use [this](https://en.wikipedia.org/wiki/G-test) instead of Chi Squared (as we found it to work better in our testing).
@@ -80,6 +74,18 @@ We use [this](https://en.wikipedia.org/wiki/G-test) instead of Chi Squared (as w
 This is currently not its own checker (will be added soon) but is used in some of our crackers to determine whether or not is it worth continuing the computation of decrypting with a given key.
 
 This is also planned to be a generalised instead of specific checker.
+
+# What
+
+[What](https://github.com/bee-san/pyWhat) is a more advanced Regex checker. To put it simply, it is the regex checker but with the regular expressions already populated. We have around 100 regular expressions in What.
+
+The idea is to solve generality of checkers via specificity.
+
+We have many regular expressions which are hyper-specific -- meaning they are unlikely to be false positives.
+
+By having hundreds of them, we can create a more "generalised" checker which is generalised by how many of the specific, smaller checkers (regular expressions) it uses.
+
+TL;DR is that this is a general checker using the shotgun approach, but each shotgun pellet is a sniper rifle shot.
 
 # The Human Checker
 The best checker is a human.
@@ -94,3 +100,12 @@ These are a really dark art, and have a *very* limited use case. We currently ha
 They allow you to create a `Checker`-like that accepts an object of any type. In fact, all `Checker`s are silently converted into this more general class when you use the `@registry.register` or `@registry.register_multi` decorators.
 
 If you wish to implement one, see the [relevant docs](https://github.com/Ciphey/Ciphey/wiki/Extending-Ciphey)
+
+# Archived / Not Implemented Yet Checkers
+
+# Entropy (coming soon)
+We plan to add an entropy checker to see if the data is ordered or not. Since the addition of the Human Checker, we plan to add this soon. We have the code -- just need to test it.
+
+This checker has lower accuracy but higher generality. All the checkers you have seen until now solve very specific problems very well. JSON, Language (English), or Regex.
+
+The entropy checker is designed to find things that are ordered (and thus may be plaintext) but aren't picked up by the other checkers.
