@@ -4,7 +4,7 @@ In this wiki you'll find lots of information about Ciphey.
 
 Please see the sidebar on the right-hand side for all of our pages.
 
-## Join our Discord
+## Join our Discord for support
 [https://discord.skerritt.blog](http://discord.skerritt.blog)
 
 ## List of Supported Ciphers/Encodings/Hashes
@@ -48,4 +48,3 @@ Maybe you're interested in how this works :detective:
 # Future Wiki Pages
 Pages which are being worked on right now for features that are not fully implemented yet.
 * [Tagging System](https://github.com/Ciphey/Ciphey/wiki/Tagging-System)
-
