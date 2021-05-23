@@ -87,6 +87,8 @@ By having hundreds of them, we can create a more "generalised" checker which is 
 
 TL;DR is that this is a general checker using the shotgun approach, but each shotgun pellet is a sniper rifle shot.
 
+[Click here to see all the Regex What supports](https://github.com/bee-san/pyWhat/blob/main/pywhat/Data/regex.json)
+
 # QuadGrams
 
 Quadgrams are 4 letters together which are seen commonly. An example is `exam`. 
