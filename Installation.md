@@ -9,7 +9,7 @@ This will tell your default Python3 version to install Ciphey and upgrade it if 
 
 **Ciphey only supports Python3.7 and above. Please upgrade Python or use the Docker image if you have a version below 3.7.**
 
-**⚠️ Ciphey doesn't work on Windows with Python 3.9, use Python 3.7 or Python 3.8. Other platforms are fine with Python 3.9.**
+**⚠️ Ciphey doesn't work on Windows with Python 3.9+, use Python 3.7 or Python 3.8. Other platforms are fine with Python 3.9, Python 3.10 doesn't work.**
 
 **⚠️ Windows Python defaults to install 32-bit. Ciphey only supports 64-bit. Make sure you're using 64-bit Python.**
 
